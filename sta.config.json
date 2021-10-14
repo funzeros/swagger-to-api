@@ -1,0 +1,5 @@
+{
+  "docsUrl": "/json/test.json",
+  "apiHeader": ["import r from \"@/xxx/xxx\""],
+  "apiTemplate": ["export const $name=($arg)=>r.request($config)"]
+}
