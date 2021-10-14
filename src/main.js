@@ -29,17 +29,14 @@
         const configDataStr = JSON.stringify(configData);
         const parameterListStr = parameterList.join(",");
         apiCount++;
-        return (
-          `// ${summary || description || "暂无描述"}` +
-          br +
-          replaceConfig(apiTemplate.join(br), {
-            $name: `${method}${baseName}`,
-            $config: `${configDataStr.slice(0, -1)}${
-              parameterListStr ? "," + parameterListStr : ""
-            }${configDataStr.slice(-1)}`,
-            $arg: parameterListStr,
-          })
-        );
+        return replaceConfig(apiTemplate.join(br), {
+          $comment: summary || description || "暂无描述",
+          $name: `${method}${baseName}`,
+          $config: `${configDataStr.slice(0, -1)}${
+            parameterListStr ? "," + parameterListStr : ""
+          }${configDataStr.slice(-1)}`,
+          $arg: parameterListStr,
+        });
       })
       .join(br);
   });
