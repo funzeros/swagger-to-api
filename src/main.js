@@ -4,7 +4,7 @@
   const configBody = require("../sta.config.json");
   const { replaceConfig, getNameByUrl } = require("./util");
   const baseUrl = path.join(__dirname, "..");
-  const { docsUrl, apiHeader, apiTemplate } = configBody;
+  const { docsUrl, apiHeader, apiTemplate, paramDict } = configBody;
   const realDocsUrl = path.join(baseUrl, docsUrl);
   const docsBody = require(realDocsUrl);
   const br = "\r\n";
@@ -24,7 +24,7 @@
         let parameterList = [];
         parameters &&
           (parameterList = Array.from(
-            new Set(parameters.map(({ in: type }) => type))
+            new Set(parameters.map(({ in: type }) => paramDict[type]))
           ));
         const configDataStr = JSON.stringify(configData);
         const parameterListStr = parameterList.join(",");

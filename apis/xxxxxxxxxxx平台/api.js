@@ -2,11 +2,11 @@ import r from "@/xxx/xxx"
 /**
  * @description 获取详情
 */
-export const postZsgwuiasFlychatFlychatStatisticsGetDetailReq=(body)=>r.request({"url":"/zsgwuias/flychat/flychat-statistics/getDetail","method":"post",body})
+export const postZsgwuiasFlychatFlychatStatisticsGetDetailReq=(data)=>r.request({"url":"/zsgwuias/flychat/flychat-statistics/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasFlychatFlychatStatisticsGetPageReq=(body)=>r.request({"url":"/zsgwuias/flychat/flychat-statistics/getPage","method":"post",body})
+export const postZsgwuiasFlychatFlychatStatisticsGetPageReq=(data)=>r.request({"url":"/zsgwuias/flychat/flychat-statistics/getPage","method":"post",data})
 /**
  * @description 获取首页EAM设备运行情况
 */
@@ -26,7 +26,7 @@ export const getZsgwuiasRestEAMGetStockInfoReq=()=>r.request({"url":"/zsgwuias/r
 /**
  * @description exportExcel
 */
-export const getZsgwuiasRestExportExportExcelReq=(query)=>r.request({"url":"/zsgwuias/rest/export/exportExcel","method":"get",query})
+export const getZsgwuiasRestExportExportExcelReq=(params)=>r.request({"url":"/zsgwuias/rest/export/exportExcel","method":"get",params})
 /**
  * @description 根据token获取用户信息
 */
@@ -38,11 +38,11 @@ export const postZsgwuiasRestGetWeatherReq=()=>r.request({"url":"/zsgwuias/rest/
 /**
  * @description 登录
 */
-export const postZsgwuiasRestLoginReq=(body)=>r.request({"url":"/zsgwuias/rest/login","method":"post",body})
+export const postZsgwuiasRestLoginReq=(data)=>r.request({"url":"/zsgwuias/rest/login","method":"post",data})
 /**
  * @description 登出
 */
-export const postZsgwuiasRestLogoutReq=(query)=>r.request({"url":"/zsgwuias/rest/logout","method":"post",query})
+export const postZsgwuiasRestLogoutReq=(params)=>r.request({"url":"/zsgwuias/rest/logout","method":"post",params})
 /**
  * @description 获取一次性密码
 */
@@ -54,103 +54,103 @@ export const postZsgwuiasRestOutGetTxlReq=()=>r.request({"url":"/zsgwuias/rest/o
 /**
  * @description 子模块登录--统计
 */
-export const postZsgwuiasRestOutModuleClickReq=(body)=>r.request({"url":"/zsgwuias/rest/out/moduleClick","method":"post",body})
+export const postZsgwuiasRestOutModuleClickReq=(data)=>r.request({"url":"/zsgwuias/rest/out/moduleClick","method":"post",data})
 /**
  * @description 子系统登录--统计
 */
-export const postZsgwuiasRestOutSubsystemClickReq=(body)=>r.request({"url":"/zsgwuias/rest/out/subsystemClick","method":"post",body})
+export const postZsgwuiasRestOutSubsystemClickReq=(data)=>r.request({"url":"/zsgwuias/rest/out/subsystemClick","method":"post",data})
 /**
  * @description 子系统登录--飞鸟--统计
 */
-export const postZsgwuiasRestOutSubsystemClickFlyChatReq=(body)=>r.request({"url":"/zsgwuias/rest/out/subsystemClickFlyChat","method":"post",body})
+export const postZsgwuiasRestOutSubsystemClickFlyChatReq=(data)=>r.request({"url":"/zsgwuias/rest/out/subsystemClickFlyChat","method":"post",data})
 /**
  * @description 账号密码登陆
 */
-export const postZsgwuiasRestOutTicketLoginReq=(body)=>r.request({"url":"/zsgwuias/rest/out/ticketLogin","method":"post",body})
+export const postZsgwuiasRestOutTicketLoginReq=(data)=>r.request({"url":"/zsgwuias/rest/out/ticketLogin","method":"post",data})
 /**
  * @description 用户Token验证--OTP
 */
-export const postZsgwuiasRestOutUserTokenReq=(body)=>r.request({"url":"/zsgwuias/rest/out/userToken","method":"post",body})
+export const postZsgwuiasRestOutUserTokenReq=(data)=>r.request({"url":"/zsgwuias/rest/out/userToken","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSyncLogGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/log/getDetail","method":"post",body})
+export const postZsgwuiasRestSyncLogGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/log/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSyncLogGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/log/getPage","method":"post",body})
+export const postZsgwuiasRestSyncLogGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/log/getPage","method":"post",data})
 /**
  * @description 获取某版本更新数据
 */
-export const postZsgwuiasRestSyncOutGetDataReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/out/getData","method":"post",body})
+export const postZsgwuiasRestSyncOutGetDataReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/out/getData","method":"post",data})
 /**
  * @description 获取初始化数据
 */
-export const postZsgwuiasRestSyncOutGetInitDataReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/out/getInitData","method":"post",body})
+export const postZsgwuiasRestSyncOutGetInitDataReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/out/getInitData","method":"post",data})
 /**
  * @description 获取某条更新数据
 */
-export const postZsgwuiasRestSyncOutGetOneDataReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/out/getOneData","method":"post",body})
+export const postZsgwuiasRestSyncOutGetOneDataReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/out/getOneData","method":"post",data})
 /**
  * @description 手动推送某版本更新数据
 */
-export const postZsgwuiasRestSyncOutPostDataReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/out/postData","method":"post",body})
+export const postZsgwuiasRestSyncOutPostDataReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/out/postData","method":"post",data})
 /**
  * @description 删除
 */
-export const postZsgwuiasRestSyncRegeditDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/regedit/delete","method":"post",body})
+export const postZsgwuiasRestSyncRegeditDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/regedit/delete","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSyncRegeditGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/regedit/getDetail","method":"post",body})
+export const postZsgwuiasRestSyncRegeditGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/regedit/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSyncRegeditGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/regedit/getPage","method":"post",body})
+export const postZsgwuiasRestSyncRegeditGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/regedit/getPage","method":"post",data})
 /**
  * @description 新增
 */
-export const postZsgwuiasRestSyncRegeditInsertReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/regedit/insert","method":"post",body})
+export const postZsgwuiasRestSyncRegeditInsertReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/regedit/insert","method":"post",data})
 /**
  * @description 修改
 */
-export const postZsgwuiasRestSyncRegeditUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sync/regedit/update","method":"post",body})
+export const postZsgwuiasRestSyncRegeditUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sync/regedit/update","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSysCalendarGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/calendar/getDetail","method":"post",body})
+export const postZsgwuiasRestSysCalendarGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/calendar/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSysCalendarGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/calendar/getPage","method":"post",body})
+export const postZsgwuiasRestSysCalendarGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/calendar/getPage","method":"post",data})
 /**
  * @description 获取督办发布统计
 */
-export const postZsgwuiasRestSysDcdbTjGetDbfbTjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/dcdbTj/getDbfbTj","method":"post",body})
+export const postZsgwuiasRestSysDcdbTjGetDbfbTjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/dcdbTj/getDbfbTj","method":"post",data})
 /**
  * @description 获取指派发布统计
 */
-export const postZsgwuiasRestSysDcdbTjGetZbfbTjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/dcdbTj/getZbfbTj","method":"post",body})
+export const postZsgwuiasRestSysDcdbTjGetZbfbTjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/dcdbTj/getZbfbTj","method":"post",data})
 /**
  * @description 集团网址新增
 */
-export const postZsgwuiasRestSysGroupWebsiteAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/add","method":"post",body})
+export const postZsgwuiasRestSysGroupWebsiteAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/add","method":"post",data})
 /**
  * @description 集团网址删除
 */
-export const postZsgwuiasRestSysGroupWebsiteDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/delete","method":"post",body})
+export const postZsgwuiasRestSysGroupWebsiteDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/delete","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSysGroupWebsiteGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/getDetail","method":"post",body})
+export const postZsgwuiasRestSysGroupWebsiteGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/getDetail","method":"post",data})
 /**
  * @description 常用网址列表
 */
-export const postZsgwuiasRestSysGroupWebsiteGetListReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/getList","method":"post",body})
+export const postZsgwuiasRestSysGroupWebsiteGetListReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/getList","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSysGroupWebsiteGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/getPage","method":"post",body})
+export const postZsgwuiasRestSysGroupWebsiteGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/getPage","method":"post",data})
 /**
  * @description 集团网址
 */
@@ -158,63 +158,63 @@ export const postZsgwuiasRestSysGroupWebsiteJtwzReq=()=>r.request({"url":"/zsgwu
 /**
  * @description 集团网址修改
 */
-export const postZsgwuiasRestSysGroupWebsiteUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/update","method":"post",body})
+export const postZsgwuiasRestSysGroupWebsiteUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/groupWebsite/update","method":"post",data})
 /**
  * @description 新增岗位管理
 */
-export const postZsgwuiasRestSysGwAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/gw/add","method":"post",body})
+export const postZsgwuiasRestSysGwAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/gw/add","method":"post",data})
 /**
  * @description 删除岗位管理
 */
-export const postZsgwuiasRestSysGwDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/gw/delete","method":"post",body})
+export const postZsgwuiasRestSysGwDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/gw/delete","method":"post",data})
 /**
  * @description 获取岗位管理详情
 */
-export const postZsgwuiasRestSysGwGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/gw/getDetail","method":"post",body})
+export const postZsgwuiasRestSysGwGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/gw/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSysGwGetListReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/gw/getList","method":"post",body})
+export const postZsgwuiasRestSysGwGetListReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/gw/getList","method":"post",data})
 /**
  * @description 查询岗位管理列表
 */
-export const postZsgwuiasRestSysGwGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/gw/getPage","method":"post",body})
+export const postZsgwuiasRestSysGwGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/gw/getPage","method":"post",data})
 /**
  * @description 修改岗位管理
 */
-export const postZsgwuiasRestSysGwUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/gw/update","method":"post",body})
+export const postZsgwuiasRestSysGwUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/gw/update","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSysLogloginGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/loglogin/getDetail","method":"post",body})
+export const postZsgwuiasRestSysLogloginGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/loglogin/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSysLogloginGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/loglogin/getPage","method":"post",body})
+export const postZsgwuiasRestSysLogloginGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/loglogin/getPage","method":"post",data})
 /**
  * @description 获取登录日志详情
 */
-export const postZsgwuiasRestSysLogmoduleGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/logmodule/getDetail","method":"post",body})
+export const postZsgwuiasRestSysLogmoduleGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/logmodule/getDetail","method":"post",data})
 /**
  * @description 查询登录日志列表
 */
-export const postZsgwuiasRestSysLogmoduleGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/logmodule/getPage","method":"post",body})
+export const postZsgwuiasRestSysLogmoduleGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/logmodule/getPage","method":"post",data})
 /**
  * @description 获取登录日志详情
 */
-export const postZsgwuiasRestSysLogsubsystemGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/logsubsystem/getDetail","method":"post",body})
+export const postZsgwuiasRestSysLogsubsystemGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/logsubsystem/getDetail","method":"post",data})
 /**
  * @description 查询登录日志列表
 */
-export const postZsgwuiasRestSysLogsubsystemGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/logsubsystem/getPage","method":"post",body})
+export const postZsgwuiasRestSysLogsubsystemGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/logsubsystem/getPage","method":"post",data})
 /**
  * @description 新增菜单
 */
-export const postZsgwuiasRestSysMenuAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/menu/add","method":"post",body})
+export const postZsgwuiasRestSysMenuAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/menu/add","method":"post",data})
 /**
  * @description 删除菜单
 */
-export const postZsgwuiasRestSysMenuDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/menu/delete","method":"post",body})
+export const postZsgwuiasRestSysMenuDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/menu/delete","method":"post",data})
 /**
  * @description 所有子系统及其菜单
 */
@@ -222,55 +222,55 @@ export const postZsgwuiasRestSysMenuGetAllMenuReq=()=>r.request({"url":"/zsgwuia
 /**
  * @description 菜单详情
 */
-export const postZsgwuiasRestSysMenuGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/menu/getDetail","method":"post",body})
+export const postZsgwuiasRestSysMenuGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/menu/getDetail","method":"post",data})
 /**
  * @description 某个子系统下所有菜单
 */
-export const postZsgwuiasRestSysMenuSubsystemMenusReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/menu/subsystemMenus","method":"post",body})
+export const postZsgwuiasRestSysMenuSubsystemMenusReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/menu/subsystemMenus","method":"post",data})
 /**
  * @description 修改菜单
 */
-export const postZsgwuiasRestSysMenuUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/menu/update","method":"post",body})
+export const postZsgwuiasRestSysMenuUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/menu/update","method":"post",data})
 /**
  * @description 用户菜单
 */
-export const postZsgwuiasRestSysMenuUserMenusReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/menu/userMenus","method":"post",body})
+export const postZsgwuiasRestSysMenuUserMenusReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/menu/userMenus","method":"post",data})
 /**
  * @description 新增子系统模块
 */
-export const postZsgwuiasRestSysModuleAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/module/add","method":"post",body})
+export const postZsgwuiasRestSysModuleAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/module/add","method":"post",data})
 /**
  * @description 删除子系统模块
 */
-export const postZsgwuiasRestSysModuleDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/module/delete","method":"post",body})
+export const postZsgwuiasRestSysModuleDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/module/delete","method":"post",data})
 /**
  * @description 获取子系统模块详情
 */
-export const postZsgwuiasRestSysModuleGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/module/getDetail","method":"post",body})
+export const postZsgwuiasRestSysModuleGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/module/getDetail","method":"post",data})
 /**
  * @description 查询子系统模块列表
 */
-export const postZsgwuiasRestSysModuleGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/module/getPage","method":"post",body})
+export const postZsgwuiasRestSysModuleGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/module/getPage","method":"post",data})
 /**
  * @description 修改子系统模块
 */
-export const postZsgwuiasRestSysModuleUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/module/update","method":"post",body})
+export const postZsgwuiasRestSysModuleUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/module/update","method":"post",data})
 /**
  * @description 新增
 */
-export const postZsgwuiasRestSysOrgAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/org/add","method":"post",body})
+export const postZsgwuiasRestSysOrgAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/org/add","method":"post",data})
 /**
  * @description 删除
 */
-export const postZsgwuiasRestSysOrgDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/org/delete","method":"post",body})
+export const postZsgwuiasRestSysOrgDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/org/delete","method":"post",data})
 /**
  * @description 根据单位找部门
 */
-export const postZsgwuiasRestSysOrgGetBmTreeReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/org/getBmTree","method":"post",body})
+export const postZsgwuiasRestSysOrgGetBmTreeReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/org/getBmTree","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSysOrgGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/org/getDetail","method":"post",body})
+export const postZsgwuiasRestSysOrgGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/org/getDetail","method":"post",data})
 /**
  * @description 单位树-全部
 */
@@ -278,7 +278,7 @@ export const postZsgwuiasRestSysOrgGetDwTreeReq=()=>r.request({"url":"/zsgwuias/
 /**
  * @description 单位树-部分
 */
-export const postZsgwuiasRestSysOrgGetDwTreeByIdReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/org/getDwTreeById","method":"post",body})
+export const postZsgwuiasRestSysOrgGetDwTreeByIdReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/org/getDwTreeById","method":"post",data})
 /**
  * @description 组织架构树-全部
 */
@@ -286,19 +286,19 @@ export const postZsgwuiasRestSysOrgGetOrgTreeReq=()=>r.request({"url":"/zsgwuias
 /**
  * @description 组织架构树-部分
 */
-export const postZsgwuiasRestSysOrgGetOrgTreeByIdReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/org/getOrgTreeById","method":"post",body})
+export const postZsgwuiasRestSysOrgGetOrgTreeByIdReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/org/getOrgTreeById","method":"post",data})
 /**
  * @description 修改
 */
-export const postZsgwuiasRestSysOrgUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/org/update","method":"post",body})
+export const postZsgwuiasRestSysOrgUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/org/update","method":"post",data})
 /**
  * @description 新增角色
 */
-export const postZsgwuiasRestSysRoleAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/role/add","method":"post",body})
+export const postZsgwuiasRestSysRoleAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/role/add","method":"post",data})
 /**
  * @description 删除角色
 */
-export const postZsgwuiasRestSysRoleDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/role/delete","method":"post",body})
+export const postZsgwuiasRestSysRoleDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/role/delete","method":"post",data})
 /**
  * @description 角色管理
 */
@@ -306,15 +306,15 @@ export const postZsgwuiasRestSysRoleGetAllRolesReq=()=>r.request({"url":"/zsgwui
 /**
  * @description 获取角色详情
 */
-export const postZsgwuiasRestSysRoleGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/role/getDetail","method":"post",body})
+export const postZsgwuiasRestSysRoleGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/role/getDetail","method":"post",data})
 /**
  * @description 查询角色列表
 */
-export const postZsgwuiasRestSysRoleGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/role/getPage","method":"post",body})
+export const postZsgwuiasRestSysRoleGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/role/getPage","method":"post",data})
 /**
  * @description 根据角色获取对应的权限
 */
-export const postZsgwuiasRestSysRoleGetRoleAuthsReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/role/getRoleAuths","method":"post",body})
+export const postZsgwuiasRestSysRoleGetRoleAuthsReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/role/getRoleAuths","method":"post",data})
 /**
  * @description 角色列表
 */
@@ -322,43 +322,43 @@ export const postZsgwuiasRestSysRoleGetRolesbyRoleReq=()=>r.request({"url":"/zsg
 /**
  * @description 保存角色和权限对应关系
 */
-export const postZsgwuiasRestSysRoleSaveRoleAuthsReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/role/saveRoleAuths","method":"post",body})
+export const postZsgwuiasRestSysRoleSaveRoleAuthsReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/role/saveRoleAuths","method":"post",data})
 /**
  * @description 修改角色
 */
-export const postZsgwuiasRestSysRoleUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/role/update","method":"post",body})
+export const postZsgwuiasRestSysRoleUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/role/update","method":"post",data})
 /**
  * @description 客户资金到账录入并审核统计
 */
-export const postZsgwuiasRestSysScxtTjGetKhdztjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getKhdztj","method":"post",body})
+export const postZsgwuiasRestSysScxtTjGetKhdztjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getKhdztj","method":"post",data})
 /**
  * @description 船舶实际作业信息录入统计
 */
-export const postZsgwuiasRestSysScxtTjGetSjzytjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getSjzytj","method":"post",body})
+export const postZsgwuiasRestSysScxtTjGetSjzytjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getSjzytj","method":"post",data})
 /**
  * @description  停泊费开票时间统计
 */
-export const postZsgwuiasRestSysScxtTjGetTbfkptjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getTbfkptj","method":"post",body})
+export const postZsgwuiasRestSysScxtTjGetTbfkptjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getTbfkptj","method":"post",data})
 /**
  * @description  装卸费结算上报时间统计 
 */
-export const postZsgwuiasRestSysScxtTjGetZxfjstjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getZxfjstj","method":"post",body})
+export const postZsgwuiasRestSysScxtTjGetZxfjstjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/scxtTj/getZxfjstj","method":"post",data})
 /**
  * @description 新增
 */
-export const postZsgwuiasRestSysSubsystemAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/add","method":"post",body})
+export const postZsgwuiasRestSysSubsystemAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/add","method":"post",data})
 /**
  * @description 删除
 */
-export const postZsgwuiasRestSysSubsystemDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/delete","method":"post",body})
+export const postZsgwuiasRestSysSubsystemDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/delete","method":"post",data})
 /**
  * @description 拖拽显示的子系统/常用网址
 */
-export const postZsgwuiasRestSysSubsystemDragReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/drag","method":"post",body})
+export const postZsgwuiasRestSysSubsystemDragReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/drag","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSysSubsystemGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/getDetail","method":"post",body})
+export const postZsgwuiasRestSysSubsystemGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/getDetail","method":"post",data})
 /**
  * @description 子系统下拉列表[全部]
 */
@@ -370,7 +370,7 @@ export const postZsgwuiasRestSysSubsystemGetListReq=()=>r.request({"url":"/zsgwu
 /**
  * @description 子系统列表（按来源获取）
 */
-export const postZsgwuiasRestSysSubsystemGetListByLyReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/getListByLy","method":"post",body})
+export const postZsgwuiasRestSysSubsystemGetListByLyReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/getListByLy","method":"post",data})
 /**
  * @description 选择来源
 */
@@ -378,7 +378,7 @@ export const postZsgwuiasRestSysSubsystemGetLyListReq=()=>r.request({"url":"/zsg
 /**
  * @description 查询列表[分页]
 */
-export const postZsgwuiasRestSysSubsystemGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/getPage","method":"post",body})
+export const postZsgwuiasRestSysSubsystemGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/getPage","method":"post",data})
 /**
  * @description 子系统下拉列表[仅统计启用的]
 */
@@ -386,15 +386,15 @@ export const postZsgwuiasRestSysSubsystemGetTjDropDownListReq=()=>r.request({"ur
 /**
  * @description 根据登录人显示子系统/常用网址
 */
-export const postZsgwuiasRestSysSubsystemShowByUserReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/showByUser","method":"post",body})
+export const postZsgwuiasRestSysSubsystemShowByUserReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/showByUser","method":"post",data})
 /**
  * @description 子系统/常用网址，设置是否显示
 */
-export const postZsgwuiasRestSysSubsystemShowOrHideReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/showOrHide","method":"post",body})
+export const postZsgwuiasRestSysSubsystemShowOrHideReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/showOrHide","method":"post",data})
 /**
  * @description 修改
 */
-export const postZsgwuiasRestSysSubsystemUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/update","method":"post",body})
+export const postZsgwuiasRestSysSubsystemUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/subsystem/update","method":"post",data})
 /**
  * @description 用户子系统
 */
@@ -402,23 +402,23 @@ export const postZsgwuiasRestSysSubsystemUserSubsystemsReq=()=>r.request({"url":
 /**
  * @description 子模块点击情况导出Excel
 */
-export const postZsgwuiasRestSysTjmoduleExportZmkReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjmodule/exportZmk","method":"post",body})
+export const postZsgwuiasRestSysTjmoduleExportZmkReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjmodule/exportZmk","method":"post",data})
 /**
  * @description 查询下属部门公司子模块点击情况统计列表
 */
-export const postZsgwuiasRestSysTjmoduleGetModuleDjTjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjmodule/getModuleDjTj","method":"post",body})
+export const postZsgwuiasRestSysTjmoduleGetModuleDjTjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjmodule/getModuleDjTj","method":"post",data})
 /**
  * @description 全港子系统登陆情况导出Excel
 */
-export const postZsgwuiasRestSysTjsubsystemExportQgdlqkReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/exportQgdlqk","method":"post",body})
+export const postZsgwuiasRestSysTjsubsystemExportQgdlqkReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/exportQgdlqk","method":"post",data})
 /**
  * @description 下属公司子系统登陆情况导出Excel
 */
-export const postZsgwuiasRestSysTjsubsystemExportXszxtqkReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/exportXszxtqk","method":"post",body})
+export const postZsgwuiasRestSysTjsubsystemExportXszxtqkReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/exportXszxtqk","method":"post",data})
 /**
  * @description 舟港公司子系统登陆情况导出Excel
 */
-export const postZsgwuiasRestSysTjsubsystemExportZgzxtqkReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/exportZgzxtqk","method":"post",body})
+export const postZsgwuiasRestSysTjsubsystemExportZgzxtqkReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/exportZgzxtqk","method":"post",data})
 /**
  * @description 首页子系统echarts统计
 */
@@ -426,7 +426,7 @@ export const postZsgwuiasRestSysTjsubsystemGetSubHeadReq=()=>r.request({"url":"/
 /**
  * @description 查询全港子系统登陆情况统计列表
 */
-export const postZsgwuiasRestSysTjsubsystemGetSubQgHylTjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/getSubQgHylTj","method":"post",body})
+export const postZsgwuiasRestSysTjsubsystemGetSubQgHylTjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/getSubQgHylTj","method":"post",data})
 /**
  * @description 首页子系统table统计
 */
@@ -434,55 +434,55 @@ export const postZsgwuiasRestSysTjsubsystemGetSubTableReq=()=>r.request({"url":"
 /**
  * @description 查询下属公司子系统登陆情况统计列表
 */
-export const postZsgwuiasRestSysTjsubsystemGetSubXsgsHylTjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/getSubXsgsHylTj","method":"post",body})
+export const postZsgwuiasRestSysTjsubsystemGetSubXsgsHylTjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/getSubXsgsHylTj","method":"post",data})
 /**
  * @description 查询舟港公司子系统登陆情况统计列表
 */
-export const postZsgwuiasRestSysTjsubsystemGetSubZgHylTjReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/getSubZgHylTj","method":"post",body})
+export const postZsgwuiasRestSysTjsubsystemGetSubZgHylTjReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/tjsubsystem/getSubZgHylTj","method":"post",data})
 /**
  * @description 新增
 */
-export const postZsgwuiasRestSysUserAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/add","method":"post",body})
+export const postZsgwuiasRestSysUserAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/add","method":"post",data})
 /**
  * @description 新增用户预设
 */
-export const postZsgwuiasRestSysUserAddChangeDWBMReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/addChangeDWBM","method":"post",body})
+export const postZsgwuiasRestSysUserAddChangeDWBMReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/addChangeDWBM","method":"post",data})
 /**
  * @description 取消用户预设
 */
-export const postZsgwuiasRestSysUserChanelDWBMReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/chanelDWBM","method":"post",body})
+export const postZsgwuiasRestSysUserChanelDWBMReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/chanelDWBM","method":"post",data})
 /**
  * @description 修改密码
 */
-export const postZsgwuiasRestSysUserChangePwdReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/changePwd","method":"post",body})
+export const postZsgwuiasRestSysUserChangePwdReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/changePwd","method":"post",data})
 /**
  * @description 删除
 */
-export const postZsgwuiasRestSysUserDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/delete","method":"post",body})
+export const postZsgwuiasRestSysUserDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/delete","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSysUserGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/getDetail","method":"post",body})
+export const postZsgwuiasRestSysUserGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSysUserGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/getPage","method":"post",body})
+export const postZsgwuiasRestSysUserGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/getPage","method":"post",data})
 /**
  * @description 获取预设详情
 */
-export const postZsgwuiasRestSysUserGetYsDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/getYsDetail","method":"post",body})
+export const postZsgwuiasRestSysUserGetYsDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/getYsDetail","method":"post",data})
 /**
  * @description 查询预设详细列表
 */
-export const postZsgwuiasRestSysUserGetYsXxListReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/getYsXxList","method":"post",body})
+export const postZsgwuiasRestSysUserGetYsXxListReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/getYsXxList","method":"post",data})
 /**
  * @description 用户管理
 */
-export const postZsgwuiasRestSysUserResetPwdReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/resetPwd","method":"post",body})
+export const postZsgwuiasRestSysUserResetPwdReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/resetPwd","method":"post",data})
 /**
  * @description 设置主单位部门
 */
-export const postZsgwuiasRestSysUserSetMainDWBMReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/setMainDWBM","method":"post",body})
+export const postZsgwuiasRestSysUserSetMainDWBMReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/setMainDWBM","method":"post",data})
 /**
  * @description 审核单位部门预设
 */
@@ -490,55 +490,55 @@ export const postZsgwuiasRestSysUserShenheDWBMReq=()=>r.request({"url":"/zsgwuia
 /**
  * @description 解除锁定
 */
-export const postZsgwuiasRestSysUserUnlockingReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/unlocking","method":"post",body})
+export const postZsgwuiasRestSysUserUnlockingReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/unlocking","method":"post",data})
 /**
  * @description 修改
 */
-export const postZsgwuiasRestSysUserUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/user/update","method":"post",body})
+export const postZsgwuiasRestSysUserUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/user/update","method":"post",data})
 /**
  * @description 职位新增
 */
-export const postZsgwuiasRestSysZwAddReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zw/add","method":"post",body})
+export const postZsgwuiasRestSysZwAddReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zw/add","method":"post",data})
 /**
  * @description 职位删除
 */
-export const postZsgwuiasRestSysZwDeleteReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zw/delete","method":"post",body})
+export const postZsgwuiasRestSysZwDeleteReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zw/delete","method":"post",data})
 /**
  * @description 获取详情
 */
-export const postZsgwuiasRestSysZwGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zw/getDetail","method":"post",body})
+export const postZsgwuiasRestSysZwGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zw/getDetail","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSysZwGetListReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zw/getList","method":"post",body})
+export const postZsgwuiasRestSysZwGetListReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zw/getList","method":"post",data})
 /**
  * @description 查询列表
 */
-export const postZsgwuiasRestSysZwGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zw/getPage","method":"post",body})
+export const postZsgwuiasRestSysZwGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zw/getPage","method":"post",data})
 /**
  * @description 职位修改
 */
-export const postZsgwuiasRestSysZwUpdateReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zw/update","method":"post",body})
+export const postZsgwuiasRestSysZwUpdateReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zw/update","method":"post",data})
 /**
  * @description 添加单位职位
 */
-export const postZsgwuiasRestSysZwzAddDwZwByZwidReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/addDwZwByZwid","method":"post",body})
+export const postZsgwuiasRestSysZwzAddDwZwByZwidReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/addDwZwByZwid","method":"post",data})
 /**
  * @description 添加用户职位
 */
-export const postZsgwuiasRestSysZwzAddUserZwReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/addUserZw","method":"post",body})
+export const postZsgwuiasRestSysZwzAddUserZwReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/addUserZw","method":"post",data})
 /**
  * @description 添加职位层级
 */
-export const postZsgwuiasRestSysZwzAddZwRankReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/addZwRank","method":"post",body})
+export const postZsgwuiasRestSysZwzAddZwRankReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/addZwRank","method":"post",data})
 /**
  * @description 删除单位职位
 */
-export const postZsgwuiasRestSysZwzDelDwZwByZwidReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/delDwZwByZwid","method":"post",body})
+export const postZsgwuiasRestSysZwzDelDwZwByZwidReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/delDwZwByZwid","method":"post",data})
 /**
  * @description 删除职位层级
 */
-export const postZsgwuiasRestSysZwzDelZwRankReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/delZwRank","method":"post",body})
+export const postZsgwuiasRestSysZwzDelZwRankReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/delZwRank","method":"post",data})
 /**
  * @description 获取全部职位层级
 */
@@ -546,35 +546,35 @@ export const postZsgwuiasRestSysZwzGetAllZwRankReq=()=>r.request({"url":"/zsgwui
 /**
  * @description 获取职位层级详情
 */
-export const postZsgwuiasRestSysZwzGetDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getDetail","method":"post",body})
+export const postZsgwuiasRestSysZwzGetDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getDetail","method":"post",data})
 /**
  * @description 获取用户职位列表
 */
-export const postZsgwuiasRestSysZwzGetUserZwByidReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getUserZwByid","method":"post",body})
+export const postZsgwuiasRestSysZwzGetUserZwByidReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getUserZwByid","method":"post",data})
 /**
  * @description 根据单位和层级获取职位
 */
-export const postZsgwuiasRestSysZwzGetZwByDwAndRKReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getZwByDwAndRK","method":"post",body})
+export const postZsgwuiasRestSysZwzGetZwByDwAndRKReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getZwByDwAndRK","method":"post",data})
 /**
  * @description 获取职位详情
 */
-export const postZsgwuiasRestSysZwzGetZwDetailReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getZwDetail","method":"post",body})
+export const postZsgwuiasRestSysZwzGetZwDetailReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getZwDetail","method":"post",data})
 /**
  * @description 获取单位职位树结构
 */
-export const postZsgwuiasRestSysZwzGetZwTreeByssdwReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getZwTreeByssdw","method":"post",body})
+export const postZsgwuiasRestSysZwzGetZwTreeByssdwReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/getZwTreeByssdw","method":"post",data})
 /**
  * @description 修改单位职位
 */
-export const postZsgwuiasRestSysZwzUpdDwZwByZwidReq=(body)=>r.request({"url":"/zsgwuias/rest/sys/zwz/updDwZwByZwid","method":"post",body})
+export const postZsgwuiasRestSysZwzUpdDwZwByZwidReq=(data)=>r.request({"url":"/zsgwuias/rest/sys/zwz/updDwZwByZwid","method":"post",data})
 /**
  * @description 日志导出excel
 */
-export const postZsgwuiasRestSysLogExportReq=(body)=>r.request({"url":"/zsgwuias/rest/sysLog/export","method":"post",body})
+export const postZsgwuiasRestSysLogExportReq=(data)=>r.request({"url":"/zsgwuias/rest/sysLog/export","method":"post",data})
 /**
  * @description 日志查询分页
 */
-export const postZsgwuiasRestSysLogGetPageReq=(body)=>r.request({"url":"/zsgwuias/rest/sysLog/getPage","method":"post",body})
+export const postZsgwuiasRestSysLogGetPageReq=(data)=>r.request({"url":"/zsgwuias/rest/sysLog/getPage","method":"post",data})
 /**
  * @description 督查督办
 */
@@ -610,15 +610,15 @@ export const postZsgwuiasRestThirdNewoaLoginReq=()=>r.request({"url":"/zsgwuias/
 /**
  * @description 查询工作待办列表
 */
-export const postZsgwuiasRestThirdSjgjGetGzdbPageReq=(body)=>r.request({"url":"/zsgwuias/rest/third/sjgj/getGzdbPage","method":"post",body})
+export const postZsgwuiasRestThirdSjgjGetGzdbPageReq=(data)=>r.request({"url":"/zsgwuias/rest/third/sjgj/getGzdbPage","method":"post",data})
 /**
  * @description 查询工作阅办列表
 */
-export const postZsgwuiasRestThirdSjgjGetYbxxPageReq=(body)=>r.request({"url":"/zsgwuias/rest/third/sjgj/getYbxxPage","method":"post",body})
+export const postZsgwuiasRestThirdSjgjGetYbxxPageReq=(data)=>r.request({"url":"/zsgwuias/rest/third/sjgj/getYbxxPage","method":"post",data})
 /**
  * @description 查询最近已办列表
 */
-export const postZsgwuiasRestThirdSjgjGetZjybPageReq=(body)=>r.request({"url":"/zsgwuias/rest/third/sjgj/getZjybPage","method":"post",body})
+export const postZsgwuiasRestThirdSjgjGetZjybPageReq=(data)=>r.request({"url":"/zsgwuias/rest/third/sjgj/getZjybPage","method":"post",data})
 /**
  * @description 隐患事项
 */
@@ -634,11 +634,11 @@ export const postZsgwuiasRestUpdateWeatherReq=()=>r.request({"url":"/zsgwuias/re
 /**
  * @description validateToken
 */
-export const postZsgwuiasRestValidateTokenReq=(query)=>r.request({"url":"/zsgwuias/rest/validateToken","method":"post",query})
+export const postZsgwuiasRestValidateTokenReq=(params)=>r.request({"url":"/zsgwuias/rest/validateToken","method":"post",params})
 /**
  * @description 推送所有数据(用户、组织、职位)
 */
-export const postZsgwuiasTestSyncAllMesReq=(body)=>r.request({"url":"/zsgwuias/test/SyncAllMes","method":"post",body})
+export const postZsgwuiasTestSyncAllMesReq=(data)=>r.request({"url":"/zsgwuias/test/SyncAllMes","method":"post",data})
 /**
  * @description 角色自动生成（只处理角色为空的用户）
 */
@@ -674,15 +674,15 @@ export const postZsgwuiasTestSyncInitReq=()=>r.request({"url":"/zsgwuias/test/sy
 /**
  * @description 用户导入
 */
-export const postZsgwuiasTestUploadReq=(body)=>r.request({"url":"/zsgwuias/test/upload","method":"post",body})
+export const postZsgwuiasTestUploadReq=(data)=>r.request({"url":"/zsgwuias/test/upload","method":"post",data})
 /**
  * @description 飞鸟账号导入用户表
 */
-export const postZsgwuiasTestUploadforfnidReq=(body)=>r.request({"url":"/zsgwuias/test/uploadforfnid","method":"post",body})
+export const postZsgwuiasTestUploadforfnidReq=(data)=>r.request({"url":"/zsgwuias/test/uploadforfnid","method":"post",data})
 /**
  * @description 用户分配角色
 */
-export const postZsgwuiasTestUsrRoleReq=(query)=>r.request({"url":"/zsgwuias/test/usrRole","method":"post",query})
+export const postZsgwuiasTestUsrRoleReq=(params)=>r.request({"url":"/zsgwuias/test/usrRole","method":"post",params})
 /**
  * @description 清缓存
 */
@@ -694,4 +694,4 @@ export const postZsgwuiasTesttmpInitFlychatMidReq=()=>r.request({"url":"/zsgwuia
 /**
  * @description 用户分配角色
 */
-export const postZsgwuiasTesttmpUsrRoleReq=(query)=>r.request({"url":"/zsgwuias/testtmp/usrRole","method":"post",query})
+export const postZsgwuiasTesttmpUsrRoleReq=(params)=>r.request({"url":"/zsgwuias/testtmp/usrRole","method":"post",params})
